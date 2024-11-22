@@ -20,11 +20,11 @@ function Header() {
       <nav className="flex items-center gap-8">
         <ul className="hidden text-2xl lg:flex gap-8">
           <li>About</li>
-          <li>Shop</li>
+          <li><a href="#products">Shop</a></li>
           <li>
             <a href="#featured">Featured</a>
           </li>
-          <li>Contact</li>
+          <li><a href="#footer">Contact</a></li>
         </ul>
         <button onClick={handleShowCart} className="relative px-4 py-2 bg-red-600 text-white rounded-lg outline-none hover:bg-red-700 transition-colors duration-200 shadow-lg">
           <span className="material-symbols-outlined text-2xl">

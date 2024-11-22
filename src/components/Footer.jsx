@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="px-16 py-24 w-full h-auto bg-slate-800 text-white text-lg grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer id="footer" className="px-16 py-24 w-full h-auto bg-slate-800 text-white text-lg grid grid-cols-1 md:grid-cols-4 gap-8">
       <section>
         <h2 className="text-2xl font-bold">
           <span>&copy;</span> BakeLush

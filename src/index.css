@@ -13,4 +13,15 @@ h1, h2 {
   font-family: Lobster, 'sans-serif';
 }
 
+#modal {
+  animation: appear 300ms;
+}
+
+@keyframes appear {
+  from {
+    transform: translateY(-2rem);
+  } to {
+    transform: translateX(0);
+  }
+}
 

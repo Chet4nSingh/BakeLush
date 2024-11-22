@@ -14,11 +14,11 @@ function Details({ cake, id, setId }) {
             ✕
           </button>
         </header>
-        <section>
-          <div className="mb-4">
+        <section className="lg:flex lg:gap-8">
+          <div className="mb-4 lg:w-1/2">
             <img src={cake.imageUrl} alt="" />
           </div>
-          <div>
+          <div className="lg:w-1/2">
             <p className="flex items-center justify-between font-bold text-xl mb-2"><span>Rs. {cake.price}</span><span>{cake.rating} ⭐</span></p>
             <p className="w-1/5 p-1 mb-4 bg-white text-lg text-center text-red-700">
               {cake.weight}
